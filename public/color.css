@@ -1,0 +1,47 @@
+/* By Oto Brglez - <otobrglez@gmail.com> */
+
+body{
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14pt;
+}
+
+body, html{
+  margin: 0px; padding: 0px;
+}
+
+div#color{
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+#color{
+  text-align: center;
+}
+
+#color .wait{
+  text-align: center;
+  margin-top: 15%;
+  font-size: 60pt;
+}
+
+h1, h2, p{
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrap{
+  padding-top: 15%;
+  margin: 0px auto;
+  max-width: 600px;
+}
+
+.wrap h1{
+  font-weight: normal;
+  font-size: 60pt;
+}

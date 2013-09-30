@@ -1,0 +1,2 @@
+server:
+	coffee server.coffee

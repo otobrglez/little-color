@@ -1,0 +1,15 @@
+{
+  "name": "little-color",
+  "version": "0.0.1",
+	"private": true,
+	"engines": {
+    "node": "0.10.17",
+    "npm":  "1.2.x"
+  },
+	"dependencies":{
+		"coffee-script": "1.6.3",
+    "express":"latest",
+    "jade":"latest",
+    "socket.io":"latest"
+	}
+}
