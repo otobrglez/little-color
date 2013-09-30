@@ -31,7 +31,7 @@ var go_offline = function(){
 
 $(document).ready(function(){
   // fuz.si
-  socket = io.connect('http://192.168.1.105:5000');
+  socket = io.connect('/');
 
   socket.on('connect',function(){
     // go_online();
@@ -46,7 +46,5 @@ $(document).ready(function(){
     if(data.color){
       set_color(data.color);
     };
-
   });
-
 });
